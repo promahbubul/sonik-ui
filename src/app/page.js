@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="bg-black">
       <Header />
       <Catelog />
       <Footer />
