@@ -34,7 +34,7 @@ const Header = () => {
           {/* Bottom */}
           <div className="mb-8 px-5 md:p-5">
             <div className="flex flex-col lg:flex-row items-center justify-between">
-              <h1 className="text-5xl md:text-[64px] font-semibold font-phudu">
+              <h1 className="text-5xl md:text-[64px] font-semibold font-phudu text-white">
                 Folamour
               </h1>
               <div className="backdrop-blur-sm flex flex-row justify-between mt-5 md:mt-0 items-center bg-white/30 max-w-[536px] w-full py-2 md:py-3 px-5 md:px-10 rounded-xl">

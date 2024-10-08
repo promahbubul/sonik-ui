@@ -4,7 +4,7 @@ import Header from "@/components/Events/Header";
 
 const Events = () => {
   return (
-    <main className="min-h-screen  bg-[url('/assets/event/body-bg.png')] bg-repeat">
+    <main className="min-h-screen bg-black text-white  bg-[url('/assets/event/body-bg.png')] bg-repeat">
       <Header />
       <About />
       <Footer />
