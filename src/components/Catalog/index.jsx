@@ -18,11 +18,15 @@ const Catelog = () => {
           />
         </div>
         <div className="w-full  max-w-[1280px] mx-auto relative">
-          <img
-            src="/assets/icons/earth.png"
-            alt="earth"
-            className="w-20 lg:w-40 absolute right-0 -top-14 ld:top-0"
-          />
+          <div className="w-20 lg:w-40 absolute right-0 -top-14 ld:top-0">
+            <Image
+              width={80}
+              height={80}
+              layout="responsive"
+              src="/assets/icons/earth.png"
+              alt="earth"
+            />
+          </div>
           <div className="my-auto  h-full flex items-start flex-col justify-center">
             <h1 className="text-4xl md:text-6xl font-phudu md:max-w-[490px]  font-semibold">
               Your city’s Entertainment all in one place
@@ -47,11 +51,15 @@ const Catelog = () => {
               </Link>
             </div>
           </div>
-          <img
-            src="/assets/icons/music.png"
-            alt="earth"
-            className="w-24 lg:w-40 absolute left-1/2 -translate-x-1/2 -bottom-24 lg:bottom-0 "
-          />
+          <div className="w-24 lg:w-40 absolute left-1/2 -translate-x-1/2 -bottom-24 lg:bottom-0 ">
+            <Image
+              width={80}
+              height={80}
+              src="/assets/icons/music.png"
+              alt="earth"
+              layout="responsive"
+            />
+          </div>
         </div>
       </section>
       <Discover />

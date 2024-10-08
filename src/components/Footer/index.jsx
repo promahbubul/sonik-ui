@@ -6,8 +6,14 @@ const Footer = () => {
     <section className="bg-[url('/assets/footer-background.png')] py-14 px-5 ">
       <div className="max-w-[1280px] mx-auto ">
         <div className="flex flex-col md:flex-row gap-5 md:gap-0 justify-between">
-          <div className="w-full  ">
-            <img src="/assets/footer-logo.png" alt="" className="" />
+          <div className="w-20 md:w-32">
+            <Image
+              height={80}
+              width={80}
+              src="/assets/footer-logo.png"
+              alt=""
+              className=""
+            />
           </div>
           <div className="w-full   flex flex-col md:items-center">
             <div className="">

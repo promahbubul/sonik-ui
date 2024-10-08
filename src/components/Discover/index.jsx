@@ -9,7 +9,7 @@ const Discover = () => {
       <div className="max-w-[1280px]  mx-auto px-5 ">
         <div className="max-w-[1100px] mx-auto  flex-col flex md:flex-row items-center justify-between gap-10 py-12  px-6 md:px-8 lg:px-16 bg-black/50  ">
           <div className="flex flex-col md:flex-row items-center gap-10">
-            <div className="">
+            <div className="w-20 md:w-auto">
               <Image
                 src="/assets/logo.png"
                 width={200}
@@ -38,7 +38,7 @@ const Discover = () => {
               </div>
             </div>
           </div>
-          <div className="">
+          <div className="w-20 md:w-auto">
             <Image
               layout="responsive"
               src="/assets/qrcode.png"
