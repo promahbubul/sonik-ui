@@ -23,7 +23,12 @@ const Header = () => {
           {/* Header */}
           <div className="  mt-8">
             <div className="w-32 h-14  mx-auto">
-              <Image width={100} height={100} src="/assets/footer-logo.png" />
+              <Image
+                width={100}
+                height={100}
+                src="/assets/footer-logo.png"
+                alt="footer logo image"
+              />
             </div>
           </div>
           {/* Bottom */}

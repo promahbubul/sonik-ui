@@ -84,7 +84,7 @@ const About = () => {
                     width={22}
                     height={22}
                     src="/assets/icons/information-circle-outline.png"
-                    alr="info icon"
+                    alt="circle icon for information"
                   />
                 </div>
                 <div className="">
@@ -100,7 +100,7 @@ const About = () => {
                     width={22}
                     height={22}
                     src="/assets/icons/cash.png"
-                    alr="cash icon"
+                    alt="icon for cash"
                   />
                 </div>
                 <p className="">You can get a refund if:</p>
@@ -118,7 +118,12 @@ const About = () => {
             <div key={event.id} className="flex flex-row gap-4 items-center">
               <div className="">
                 <div className="rounded-xl">
-                  <Image src={event.img} width={68.55} height={64} />
+                  <Image
+                    src={event.img}
+                    width={68.55}
+                    height={64}
+                    alt="image for event"
+                  />
                 </div>
                 <p className="mt-1 text-xs font-bold text-white">
                   {event.name}
@@ -217,6 +222,7 @@ const About = () => {
                     width={160}
                     height={134}
                     src={event.img}
+                    alt="event related image"
                     layout="responsive"
                   />
                 </div>
