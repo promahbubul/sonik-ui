@@ -17,6 +17,7 @@ const Header = () => {
             src="/assets/footer-logo.png"
             height={150}
             width={150}
+            alt="footer logo"
 
             //   layout="responsive"
           />

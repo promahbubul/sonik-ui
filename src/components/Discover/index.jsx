@@ -43,6 +43,7 @@ const Discover = () => {
               layout="responsive"
               src="/assets/qrcode.png"
               width={150}
+              alt="official logo"
               height={150}
             />
           </div>

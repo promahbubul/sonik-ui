@@ -14,6 +14,7 @@ const Catelog = () => {
             src="/assets/mobile.png"
             width={569}
             height={900}
+            alt="banner mobile image"
             layout="responsive"
           />
         </div>
@@ -56,7 +57,7 @@ const Catelog = () => {
               width={80}
               height={80}
               src="/assets/icons/music.png"
-              alt="earth"
+              alt="Earth icons for music"
               layout="responsive"
             />
           </div>
