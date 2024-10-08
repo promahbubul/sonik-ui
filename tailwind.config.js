@@ -14,6 +14,8 @@ module.exports = {
         "gray-100": "#898989",
         "gray-200": "#585858",
         "gray-300": "#383535",
+        "gray-400": "#6A6A6A",
+        cream: "#F3C090",
       },
       fontFamily: {
         phudu: ["Phudu", "serif"],

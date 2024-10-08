@@ -22,7 +22,7 @@ const Discover = () => {
               <h1 className="text-3xl md:text-4xl lg:text-[40px]  font-semibold text-white">
                 Discover more with the app
               </h1>
-              <div className="text-white/65 mt-5 md:mt-0 font-normal text-sm lg:text-base">
+              <div className="text-white/65 mt-5  font-normal text-sm lg:text-base">
                 <div className="flex flex-row items-center gap-5">
                   <CiSearch />
                   <p className="">Find events in your city</p>
