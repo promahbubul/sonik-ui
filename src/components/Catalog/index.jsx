@@ -5,12 +5,16 @@ import { FaAndroid, FaApple } from "react-icons/fa";
 
 const Catelog = () => {
   return (
-    <div className={"bg-[url('/assets/catelogbg.png')] py-16 md:pt-24 md:pb-28"}>
+    <div
+      className={"bg-[url('/assets/catelogbg.png')] py-16 md:pt-24 md:pb-28"}
+    >
       <section className="py-20 lg:py-24 flex flex-col-reverse lg:flex-row stretch gap-28 lg:gap-20 max-w-[1280px] mx-auto items-stretch justify-center px-5 lg:px-0">
         <div className="w-full  max-w-[1280px] mx-auto">
-          <img
-            className=" mx-auto w-full md:w-8/12 lg:w-full"
-            src={"/assets/mobile.png"}
+          <Image
+            src="/assets/mobile.png"
+            width={569}
+            height={900}
+            layout="responsive"
           />
         </div>
         <div className="w-full  max-w-[1280px] mx-auto relative">
