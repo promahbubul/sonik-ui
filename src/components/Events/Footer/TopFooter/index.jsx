@@ -38,7 +38,7 @@ const TopFooter = () => {
             />
             <button
               type="submit"
-              className="bg-indigo-500 text-white py-3
+              className="bg-indigo text-white py-3
              px-16 rounded-lg"
             >
               JOIN
