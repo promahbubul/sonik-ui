@@ -11,11 +11,11 @@ const SignUpModal = ({ dispatch, state }) => {
 
   return (
     <div
-      className={`max-w-[612px] bg-black/40 backdrop-blur-md top-10  rounded-2xl mx-auto  relative  px-11 py-24  z-50 `}
+      className={`max-w-[612px] bg-black/40 backdrop-blur-md top-10  rounded-2xl mx-auto  relative  px-5 md:px-11 py-10 md:py14 lg:py-24  z-50 `}
     >
       <form
         onSubmit={handleFormSubmit}
-        className="p-8  h-full rounded-xl border-white/10 border "
+        className="p-4 md:p-8  h-full rounded-xl border-white/10 border "
       >
         <h1 className="text-2xl font-bold font-phudu  text-white text-center mb-6 border-b pb-6 border-b-white/10">
           Create An Account
@@ -26,13 +26,13 @@ const SignUpModal = ({ dispatch, state }) => {
             placeholder={"First Name"}
             label={"First Name"}
             icon={RiUserReceived2Line}
-            className={"col-span-6"}
+            className={"col-span-12 md:col-span-6"}
           />
           <Input
             placeholder={"Last Name"}
             label={"Last Name"}
             icon={RiUserReceived2Line}
-            className={"col-span-6"}
+            className={"col-span-12 md:col-span-6"}
           />
           <Input
             placeholder={"Phone Number"}

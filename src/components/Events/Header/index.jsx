@@ -54,7 +54,7 @@ const Header = ({ event }) => {
         {/* Modal */}
         {/* Sign Up */}
         <div
-          className={`fixed inset-0 transition-all duration-500   z-50 ${
+          className={`fixed inset-0 transition-all duration-500 mx-5 md:mx-0   z-50 ${
             byNow && state.modal === null
               ? "translate-x-0 opacity-100"
               : "-translate-x-full opacity-0"
@@ -70,7 +70,7 @@ const Header = ({ event }) => {
         </div>
         {/* Get Token */}
         <div
-          className={`fixed inset-0 transition-all duration-500   z-50 ${
+          className={`fixed inset-0 transition-all duration-500 mx-5 md:mx-0  z-50 ${
             state.modal === "otp"
               ? "translate-x-0 opacity-100"
               : "-translate-x-full opacity-0"
@@ -84,7 +84,7 @@ const Header = ({ event }) => {
         </div>
         {/* Get Ticket Successfully */}
         <div
-          className={`fixed inset-0 transition-all duration-500   z-50 ${
+          className={`fixed inset-0 transition-all duration-500 mx-5 md:mx-0  z-50 ${
             state.modal === "getTicket"
               ? "translate-x-0 opacity-100"
               : "-translate-x-full opacity-0"
@@ -98,7 +98,7 @@ const Header = ({ event }) => {
         </div>
         {/* Get Information */}
         <div
-          className={`fixed inset-0 transition-all duration-500   z-50 ${
+          className={`fixed inset-0 transition-all duration-500 mx-5 md:mx-0  z-50 ${
             state.modal === "getInfo"
               ? "translate-x-0 opacity-100"
               : "-translate-x-full opacity-0"
